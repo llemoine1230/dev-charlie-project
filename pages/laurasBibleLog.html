@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>laurasBibleLog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <!--
+ Author: Laura Lemoine
+ Date: 1/27/24
+-->
+  <!--todo: update html title in head -->
+  <h1>Bible Reading Log ✝️📖</h1>
+  <p><em>This is a Bible reading log project for my web dev class 🦭!</em></p>
+  <!-- get new reading log input -->
+  <div class="form">
+    <!-- new code! added a div for the form   -->
+    <form>
+      <label for="dateLog">What day is this for?:</label><br>
+      <input type="date" id="dateLog" class="dateLog"><br>
+      <label for="whatRead">What did you read?:</label><br>
+      <input type="text" id="whatRead" name="whatRead" class="readingInput" placeholder="Enter what you read"><br>
+      <input type="submit" id="submit">
+      <textarea id="anyNotes" class="form-control" rows="4" cols="30"></textarea>
+      <button id="saveReadingData" class="btn btn-outline-dark">save reading data...
+      </button>
+    </form>
+  </div>
+  <!--input new Bible reading log -->
+
+  <div class="readingLog">
+    <ul class="readingUl">
+      <li id="firstLog">
+        <strong>22 Jan: Romans 1</strong>
+      </li>
+      <li id="secondLog">
+        <strong>23 Jan: Matthew 10:32-42, Matthew 11:1-15, Psalm 9:1-6</strong>
+      </li>
+      <li id="thirdLog">
+        <strong>24 Jan: Matthew 11:16-30, Psalm 9:7-12, Genesis 27-30</strong>
+      </li>
+    </ul>
+  </div>
+  <!-- new code! Add spotify embedded link -->
+  <div class="spotify"><iframe style="border-radius:12px"
+      src="https://open.spotify.com/embed/track/34fdABH94cRd7iKoYWLwjS?utm_source=generator" width="400" height="175"
+      allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"></iframe></div>
+  <img
+    src="https://private-user-images.githubusercontent.com/149536464/406631328-9568c159-3a51-4ce8-b2f4-2af11e2ea523.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzgwMDYwNTMsIm5iZiI6MTczODAwNTc1MywicGF0aCI6Ii8xNDk1MzY0NjQvNDA2NjMxMzI4LTk1NjhjMTU5LTNhNTEtNGNlOC1iMmY0LTJhZjExZTJlYTUyMy5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDEyNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAxMjdUMTkyMjMzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9N2UxYjExZTIwOTU4MGY3OTY5NjViMjAwYzc5MTM2ZWZiZTFmNWJmOWE0NDk5OWQxOWZlYzRhNWE3ZmYxNjNjZCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.eFSa4xgzR4GPQXhNd6yaGrJNcmIkR-DXy7cFTQuBFlY"
+    style="float: right;" width="300" height="300" alt="wireframe">
+  <a href="https://codepen.io/llemoine1230/pen/XJrqxZa" target="_blank">Original codepen</a>
+  <a href="https://www.bible.com/verse-of-the-day" target="_blank">Verse of the Day</a>
+  <a href="https://github.com/llemoine1230" target="_blank">GitHub</a>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script>
+  <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
