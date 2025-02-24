@@ -1,5 +1,5 @@
 <!-- author: Laura Lemoine -->
- <!-- date: 2/24/2025 -->
+<!-- date: 2/24/2025 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,12 +16,13 @@
 <body>
 
   <!-- ✅ navbar with burger and logo -->
-  <nav class="navbar navbar-expand-lg navbar-light" style = "background-color: #ffffff">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">🦭Dashboard
         <span id="secretSeal">🦭</span>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -33,10 +34,14 @@
             <a class="nav-link" href="https://codepen.io/llemoine1230/pen/myddqWL" target="_blank">Codepen</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://validator.nu/?doc=https%3A%2F%2Fllemoine1230.github.io%2Fdev-charlie-project%2F" target="_blank">Nu Validator</a>
+            <a class="nav-link"
+              href="https://validator.nu/?doc=https%3A%2F%2Fllemoine1230.github.io%2Fdev-charlie-project%2F"
+              target="_blank">Nu Validator</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://wave.webaim.org/report#/https://llemoine1230.github.io/dev-charlie-project/ " target="_blank">Wave</a>
+            <a class="nav-link"
+              href="https://wave.webaim.org/report#/https://llemoine1230.github.io/dev-charlie-project/ "
+              target="_blank">Wave</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="references.html" target="_blank">References</a>
@@ -45,7 +50,7 @@
       </div>
     </div>
   </nav>
-  
+
   <div class="row">
     <div class="col-sm-4">
       <div class="card">
@@ -54,7 +59,7 @@
           <img class="card-img-top img-thumbnail" src="images/BibleAppPreview.png" alt="Card image">
           <p class="card-text"> My first web dev project where I did a Bible Log. </p>
           <a href="https://llemoine1230.github.io/lauras-Bible-Log/" target="Bible Log" class="card-link">Bible Log</a>
-          <a href="pages/laurasBibleLog.html" target="parking" class="card-link">source code</a>
+          <a href="pages/sourceCodeBibleLog.html" target="parking" class="card-link">source code</a>
         </div>
       </div>
     </div>
@@ -62,42 +67,44 @@
       <div class="card">
         <div class="card-body">
           <h4 class="card-title">Dorm Room Layout</h4>
-          <img class="card-img-top img-thumbnail" src="images/DormRoomLayoutPreview.png" alt="Card image">
+          <img class="card-img-top img-thumbnail" src="images/DormLayoutPreview.png" alt="Card image">
           <p class="card-text"> My second web dev project where I made a birds-eye-view of a UNA dorm room </p>
-          <a href="https://llemoine1230.github.io/dev-baker-project/" target="Bible Log" class="card-link">Dorm Room Layout</a>
-          <a href="view-source:https://llemoine1230.github.io/dev-baker-project/" target="parking" class="card-link">source code</a>
+          <a href="https://llemoine1230.github.io/dev-baker-project/" target="Bible Log" class="card-link">Dorm Room
+            Layout</a>
+          <a href="pages/sourceCodeLayout.html" target="parking" class="card-link">source code</a>
         </div>
       </div>
     </div>
   </div>
-  
-  
-  
+
+
+
   <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center">
-        <a href="https://github.com/llemoine1230" target="nu" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-          <svg class="bi" width="30" height="24" style="text-align:center"><use xlink:href="#bootstrap"/></svg>
-        Click here to view my Github profile</a>
+    <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex justify-content-center align-items-center">
+        <a href="https://github.com/llemoine1230" target="nu"
+          class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24" style="text-align:center">
+            <use xlink:href="#bootstrap" />
+          </svg>
+          Click here to view my Github profile</a>
         <i class="bi bi-github"></i>
       </div>
     </footer>
   </div>
 
-<!-- new code! Easter egg buttons and audio! -->
+  <!-- new code! Easter egg buttons and audio! -->
   <button id="popUpButton" class="btn btn-outline-dark">Inconspicious Button</button>
 
-    <div id="easterEgg">
-        <img id="lobsterImage" src="images/blue-lobster.jpg" alt="Blue Lobster Meme" width="300">
-        <button id="closeButton" class="btn btn-outline-dark">Close</button>
+  <div id="easterEgg">
+    <img id="lobsterImage" src="images/blue-lobster.jpg" alt="Blue Lobster Meme" width="300">
+    <button id="closeButton" class="btn btn-outline-dark">Close</button>
 
     <audio id="blueLobsterSound" src="https://www.myinstants.com/media/sounds/blue-lobster.mp3"></audio>
-  <!-- TODO:   -->
-  <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script>
-  <script src="scripts/script.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script>
+    <script src="scripts/script.js"></script>
 
 </body>
 
