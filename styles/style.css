@@ -18,3 +18,36 @@ position: fixed;
 bottom: 0;
 width: 100%;
 }
+
+#popUpButton {
+  display: block; /* Ensures the button behaves like a block element */
+  margin: 20px auto; /* Centers horizontally */
+  text-align: center; /* Ensures text inside is centered */
+  padding: 10px 20px;
+}
+
+
+#easterEgg { 
+  position: fixed;
+  display: block;
+  margin: 0 auto; /* Centers horizontally */
+  top: 50%;
+  left: 40%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+#closeButton {
+  margin-top: 10px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  background: red;
+  color: white;
+  border: none;
+  width: 100%;
+  text-align: center;
+}
